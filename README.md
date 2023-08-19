@@ -23,3 +23,17 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 Follow this tutorial to know about it:
 
 - [Next 13 Crash Course. The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jZIVqmy_QhfQdi6mzQvJnT)
+
+## Run Json-server for development
+
+1 - Install `json-server` globally
+
+```
+npm install -g json-server
+```
+
+2 - Run `json-server` with `_data/db.json` data (need to run from another terminal)
+
+```
+json-server --watch --port 4000 ./_data/db.json
+```
